@@ -13,7 +13,8 @@ nav:
   - '{S}[B] Home': index.md
   - About SchemaBlocks: about.md
   - Contacts: contacts
-  - Schemas: ç
+  - Schemas: schema_pages
+  - Status Levels: schemablocks-status-levels.md
   - Beacon Project: 'https://beacon-project.io'
 
 ###############################################################################
@@ -55,10 +56,10 @@ markdown_extensions:
 ###############################################################################
 
 theme:
-  # name: readthedocs
   name: material
   palette:
-    primary: deep orange
+    primary: red
+    scheme: slate
   favicon: img/site-logo-topright.png
   # logo: img/site-logo-topright.png
   icon:
