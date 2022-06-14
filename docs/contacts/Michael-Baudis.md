@@ -1,6 +1,6 @@
 ---
 title: "Michael Baudis"
-description: ELIXIR h-CNV Community Co-Lead
+description: SchemaBlocks Community Organizer
 is_contact: true
 name_tag: baudis_m
 ---
@@ -14,7 +14,7 @@ name_tag: baudis_m
 
 #### Links
 
-* email [mbaudis@progenetix.org](mailto:mbaudis@progenetix.org)  
+* email [mbaudis@progenetix.org](mailto:mbaudis@progenetix.org)
 * web [UZH](https://www.imls.uzh.ch/en/research/baudis.html)  
 * web [SIB](https://www.sib.swiss/michael-baudis-group)  
 * web [group](https://info.baudisgroup.org)  
