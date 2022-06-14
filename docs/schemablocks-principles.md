@@ -1,18 +1,27 @@
 ---
-title: 'SchemaBlocks "Status" Levels'
+title: 'SchemaBlocks Design Principles'
 date: 2021-03-05
 authors:
 	- "@mbaudis"
 ---
 
-SchemaBlocks schemas ("blocks") provide blueprints for consensus schemas which help with the development of code based "products" throughout the GA4GH ecosystem. Here we propose a labeling system for those schemas, to provide
-transparency about the level of support those schemas have from {S}[B] participants and observers.
+## Mission Statement
+
+SchemaBlocks aims to translate the work of the workstreams into data models that:
+
+* Are usable by other internal GA4GH deliverables, such as the Beacon API.
+* Are usable by Driver Projects as an exchange format.
+* Aid in aligning the work streams across GA4GH.
+* Do not create a hindrance in development work by other work streams. 
 
 <!--more-->
 
-## Proposed {S}[B] Status Levels
+## {S}[B] Status Levels
 
-The current status level of thiose recommendations is "proposed".
+SchemaBlocks schemas ("blocks") provide blueprints for consensus schemas which help with the development of code based "products" throughout the GA4GH ecosystem. Here we propose a labeling system for those schemas, to provide
+transparency about the level of support those schemas have from {S}[B] participants and observers.
+
+The current status level of those recommendations is "proposed".
 
 * `playground`
 	- early development or import stage, of any quality
