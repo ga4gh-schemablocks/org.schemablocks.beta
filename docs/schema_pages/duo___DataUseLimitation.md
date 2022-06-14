@@ -1,24 +1,26 @@
 ---
 title: DUO - DataUseLimitation
 sb_status: core
-contributors:
-  - description: "Melanie Courtot"
-    id: "orcid:0000-0002-9551-6370"
-  - description: "DUO group"
-  - description: "Isuru Liyanage"
-    id: "orcid:0000-0002-4839-5158"
-provenance:
-  - description: "DUO"
-    id: 'https://github.com/EBISPOT/DUO'
-used_by:
-  - description: DUO
-    url: 'https://github.com/EBISPOT/DUO'
-sb_status: core
+logo: DUO_logo_white_background.png
 ---
 
+The Data Use Limitation is a component of the GA4GH DUO standard and used
+to describe limitations in the ways data items can be re-used.
 
 <!--more-->
 
+#### Data Link(s)
+
+* [DUO Ontology](https://github.com/EBISPOT/DUO)
+
+#### {S}[B] Contributors
+
+* Melanie Courtot ([ORCID:0000-0002-9551-6370](https://orcid.org/0000-0002-9551-6370))
+* Isuru Liyanage ([ORCID:0000-0002-4839-5158](https://orcid.org/0000-0002-4839-5158))
+* Michael Baudis ([ORCID:0000-0002-9903-4248](https://orcid.org/0000-0002-9903-4248))
+
+
+<!--schema_block_start-->
 ```yaml
 $schema: http://json-schema.org/draft-07/schema#
 $id: https://schemablocks.org/schemas/ga4gh/DataUseLimitation/v0.0.1
@@ -57,3 +59,4 @@ examples:
     modifier:
       text: "UK"
 ```
+<!--schema_block_end-->
