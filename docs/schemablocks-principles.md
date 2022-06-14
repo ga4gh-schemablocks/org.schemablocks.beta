@@ -1,9 +1,4 @@
----
-title: 'SchemaBlocks Design Principles'
-date: 2021-03-05
-authors:
-	- "@mbaudis"
----
+# SchemaBlocks Design Principles
 
 ## Mission Statement
 
@@ -25,22 +20,12 @@ The current status level of those recommendations is "proposed".
 
 * `playground`
 	- early development or import stage, of any quality
-	- no recommendation; existence does not mean any current or future
-	{S}[B] support
+	- no recommendation; existence does not mean any current or future {S}[B] support
 * `community`
 	- reserved for schemas from GA4GH community contributors which are used in production (i.e. not individual ideas or concepts)
-	- not recommended for direct integration into products
 	- can serve as use-case based demonstrators and inspire GA44GH project modifications
-* `proposed`
-	- at least some {S}[B] contributors are in favour of such a block
 	- the code may undergo considerable maturation
-	- not recommended for integration into products w/o close tracking
 	- contributions and discussions are encouraged
-* `implemented`
-	- mature block which is implemented in one or more {S}[B] aligned
-	schemas
-	- may be extended from a core block or be too specific for general
-	("core") usability
 * `core`
 	- a schema block with recommended use
 	- stable through minor version changes
