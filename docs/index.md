@@ -1,11 +1,11 @@
 ---
 template: news_list.html
-title: "Human Copy Number Variation community"
-date: 2019-06-05
+title: "GA4GH SchemaBlocks {S}[B] Community"
+date: 2022-06-14
 authors:
   - '@mbaudis'
 ---
 
-The [website](http://hcnv.github.io) of the _Human Copy Number Variation Community_ (hCNV) is a resource originating in ELIXIR's h-CNV Community Implementation Study (2019-2021).
+The [website](http://beta.schemablocks.org) of the _GA4GH SchemaBlocks Community_ ({S}[B]) represents information about  data schema components, standards and procedures with consensus support from GA4GH members.
 
-## CNV News and Announcements
+## {S}[B] News and Announcements
