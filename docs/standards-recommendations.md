@@ -8,7 +8,7 @@
 
 #### Contributors
 
-* Andrew Yates ([@andrewyatz](https://github.com/@andrewyatz/))
+* Andrew Yates ([@andrewyatz](https://github.com/@andrewyatz/)) :fontawesome-brands-github:
 
 ### GA4GH Recommendation
 
@@ -117,11 +117,11 @@ and [#121](https://github.com/ga4gh/ga4gh-schemas/issues/121).
 
 #### Contributors
 
-* Chris Mungall ([@cmungall](https://github.com/cmungall/))
-* Julie McMurry ([@jmcmurry](https://github.com/jmcmurry/))
-* Melissa Haendel ([@mellybelly](https://github.com/mellybelly/))
-* Michael Baudis ([@mbaudis](https://github.com/mbaudis/))
-* Reece Hart ([@reece](https://github.com/reece/))
+* Chris Mungall ([@cmungall](https://github.com/cmungall/)) :fontawesome-brands-github:
+* Julie McMurry ([@jmcmurry](https://github.com/jmcmurry/)) :fontawesome-brands-github:
+* Melissa Haendel ([@mellybelly](https://github.com/mellybelly/)) :fontawesome-brands-github:
+* Michael Baudis ([@mbaudis](https://github.com/mbaudis/)) :fontawesome-brands-github:
+* Reece Hart ([@reece](https://github.com/reece/)) :fontawesome-brands-github:
 * cross GA4GH alignment discussions
 
 ### GA4GH Recommendation

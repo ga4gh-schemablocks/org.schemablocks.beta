@@ -19,8 +19,8 @@ as optional refinement of the limitations defined in [DataUseLimitation](/schema
 
 #### {S}[B] Contributors
 
-* Melanie Courtot ([ORCID:0000-0002-9551-6370](https://orcid.org/0000-0002-9551-6370))
-* Isuru Liyanage ([ORCID:0000-0002-4839-5158](https://orcid.org/0000-0002-4839-5158))
+* Melanie Courtot ([ORCID:0000-0002-9551-6370](https://orcid.org/0000-0002-9551-6370)) :ORCID-icon-green:
+* Isuru Liyanage ([ORCID:0000-0002-4839-5158](https://orcid.org/0000-0002-4839-5158)) :ORCID-icon-green:
 
 <!--schema_block_start-->
 ```yaml

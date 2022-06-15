@@ -18,9 +18,9 @@ element in many GA4GH schemas.
 
 #### {S}[B] Contributors
 
-* Christopher Mungall ([ORCID:0000-0002-6601-2165](https://orcid.org/0000-0002-6601-2165))
-* Michael Baudis ([ORCID:0000-0002-9551-6370](https://orcid.org/0000-0002-9903-4248))
-* Melanie Courtot ([ORCID:0000-0002-9551-6370](https://orcid.org/0000-0002-9551-6370))
+* Christopher Mungall ([ORCID:0000-0002-6601-2165](https://orcid.org/0000-0002-6601-2165)) :ORCID-icon-green:
+* Michael Baudis ([ORCID:0000-0002-9551-6370](https://orcid.org/0000-0002-9903-4248)) :ORCID-icon-green:
+* Melanie Courtot ([ORCID:0000-0002-9551-6370](https://orcid.org/0000-0002-9551-6370)) :ORCID-icon-green:
 
 <!--schema_block_start-->
 ```yaml
