@@ -13,10 +13,10 @@ SchemaBlocks aims to translate the work of the workstreams into data models that
 
 ## {S}[B] Status Levels
 
-SchemaBlocks schemas ("blocks") provide blueprints for consensus schemas which help with the development of code based "products" throughout the GA4GH ecosystem. Here we propose a labeling system for those schemas, to provide
+SchemaBlocks schemas ("blocks") provide blueprints for consensus schemas which help with the development of code based "products" throughout the GA4GH ecosystem. We use a labeling system for those schemas, to provide
 transparency about the level of support those schemas have from {S}[B] participants and observers.
 
-The current status level of those recommendations is "proposed".
+**New 2022-06-15**: We have simplified the labeling by dropping the `implemented` and `proposed` levels which were somewhat redundant with `community`.
 
 * `core`
 	- a schema block with recommended use
