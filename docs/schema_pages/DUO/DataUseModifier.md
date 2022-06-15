@@ -5,7 +5,7 @@ logo: DUO_logo_white_background.png
 ---
 
 The Data Use Modifier is a component of the GA4GH DUO standard and used
-as optional refinement of the limitations defined in [DataUseLimitations](/schema_pages/DataUseLimitations/).
+as optional refinement of the limitations defined in [DataUseLimitation](/schema_pages/DUO/DataUseLimitation/).
 
 <!--more-->
 
@@ -23,7 +23,7 @@ as optional refinement of the limitations defined in [DataUseLimitations](/schem
 <!--schema_block_start-->
 ```yaml
 $schema: http://json-schema.org/draft-07/schema#
-$id: https://schemablocks.org/schemas/ga4gh/DataUseModifier/v0.0.1
+$id: https://beta.schemablocks.org/schemas/json/DUO/DataUseModifier.json
 title: DataUseModifier
 description: >-
   The (GA4GH) Data Use Ontology (DUO) includes terms describing data use conditions,
