@@ -18,15 +18,15 @@ transparency about the level of support those schemas have from {S}[B] participa
 
 The current status level of those recommendations is "proposed".
 
-* `playground`
-	- early development or import stage, of any quality
-	- no recommendation; existence does not mean any current or future {S}[B] support
+* `core`
+	- a schema block with recommended use
+	- stable through minor version changes
+	- has to be used in at least 2 standards/products approved by the GA4GH Steering Committee 
 * `community`
 	- reserved for schemas from GA4GH community contributors which are used in production (i.e. not individual ideas or concepts)
 	- can serve as use-case based demonstrators and inspire GA44GH project modifications
 	- the code may undergo considerable maturation
 	- contributions and discussions are encouraged
-* `core`
-	- a schema block with recommended use
-	- stable through minor version changes
-	- has to be used in at least 2 standards/products approved by the GA4GH Steering Committee 
+* `playground`
+	- early development or import stage, of any quality
+	- no recommendation; existence does not mean any current or future {S}[B] support
