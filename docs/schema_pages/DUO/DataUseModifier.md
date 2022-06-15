@@ -11,6 +11,8 @@ as optional refinement of the limitations defined in [DataUseLimitation](/schema
 
 #### Link(s)
 
+* [DataUseModifier.json](/schemas/json/DUO/DataUseModifier.json) schema
+* [source repository](https://github.com/ga4gh-schemablocks/sb-duo)
 * [DUO Ontology](https://github.com/EBISPOT/DUO) repository
 * _data use modifier_ in [OLS](http://purl.obolibrary.org/obo/DUO_0000017)
 * _data use permission_ in [OLS](http://purl.obolibrary.org/obo/DUO_0000001)

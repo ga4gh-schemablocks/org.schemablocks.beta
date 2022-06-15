@@ -11,6 +11,7 @@ to describe limitations in the ways data items can be re-used.
 
 #### Link(s)
 
+* [DataUseModifier.json](/schemas/json/DUO/DataUseLimitation.json) schema
 * [DUO Ontology](https://github.com/EBISPOT/DUO) repository
 * _data use modifier_ in [OLS](http://purl.obolibrary.org/obo/DUO_0000017)
 * _data use permission_ in [OLS](http://purl.obolibrary.org/obo/DUO_0000001)
