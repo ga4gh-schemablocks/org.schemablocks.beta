@@ -1,0 +1,53 @@
+---
+title: DUO - DataUseModifier
+sb_status: core
+logo: DUO_logo_white_background.png
+---
+
+The Data Use Modifier is a component of the GA4GH DUO standard and used
+as optional refinement of the limitations defined in [DataUseLimitations](/schema_pages/DataUseLimitations/).
+
+<!--more-->
+
+#### Link(s)
+
+* [DUO Ontology](https://github.com/EBISPOT/DUO) repository
+* _data use modifier_ in [OLS](http://purl.obolibrary.org/obo/DUO_0000017)
+* _data use permission_ in [OLS](http://purl.obolibrary.org/obo/DUO_0000001)
+
+#### {S}[B] Contributors
+
+* Melanie Courtot ([ORCID:0000-0002-9551-6370](https://orcid.org/0000-0002-9551-6370))
+* Isuru Liyanage ([ORCID:0000-0002-4839-5158](https://orcid.org/0000-0002-4839-5158))
+
+<!--schema_block_start-->
+```yaml
+$schema: http://json-schema.org/draft-07/schema#
+$id: https://schemablocks.org/schemas/ga4gh/DataUseModifier/v0.0.1
+title: DataUseModifier
+description: >-
+  The (GA4GH) Data Use Ontology (DUO) includes terms describing data use conditions,
+  particularly for research data in the health/clinical/biomedical domain.
+  Modifier specifies the criteria for data use condition.
+type: object
+properties:
+  text:
+    type: string
+    description: >-
+      text description of the modifier eg. date rage, geographic location, user/institute (RI)
+  ontology:
+    $ref: https://schemablocks.org/schemas/sb-phenopackets/OntologyClass/v1.0.0
+    description: ontology describing the modifier/restriction
+oneof:
+  - required:
+      - text
+  - required:
+      - ontology
+additionalProperties: false
+examples:
+  - ontology:
+      id: MONDO:0004992
+      label: cancer
+  - text: UK
+```
+<!--schema_block_end-->

@@ -11,7 +11,7 @@ hide:
 ---
 
 After some low-level activity, the SchemaBlocks site has been
-relaunched with a new design and content concept (still as [beta.progenetix.org](http://beta.progenetix.org) as of this date).
+relaunched with a new design and content concept (still as [beta.schemablocks.org](http://beta.schemablocks.org) as of this date).
 
 <!--more-->
 

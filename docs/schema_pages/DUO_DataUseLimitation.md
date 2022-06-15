@@ -19,7 +19,6 @@ to describe limitations in the ways data items can be re-used.
 
 * Melanie Courtot ([ORCID:0000-0002-9551-6370](https://orcid.org/0000-0002-9551-6370))
 * Isuru Liyanage ([ORCID:0000-0002-4839-5158](https://orcid.org/0000-0002-4839-5158))
-* Michael Baudis ([ORCID:0000-0002-9903-4248](https://orcid.org/0000-0002-9903-4248))
 
 
 <!--schema_block_start-->
