@@ -36,7 +36,7 @@ description: >-
 type: object
 properties:
   term:
-    $ref: https://schemablocks.org/schemas/sb-phenopackets/OntologyClass/v1.0.0
+    $ref: https://beta.schemablocks.org/schemas/json/phenopackets/OntologyClass.json
     description: DUO - ontology term subclass of either DUO_0000001 or DUO_0000017
   modifier:
     $ref: ./DataUseModifier

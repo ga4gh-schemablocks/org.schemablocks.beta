@@ -38,7 +38,7 @@ properties:
     description: >-
       text description of the modifier eg. date rage, geographic location, user/institute (RI)
   ontology:
-    $ref: https://schemablocks.org/schemas/sb-phenopackets/OntologyClass/v1.0.0
+    $ref: https://beta.schemablocks.org/schemas/json/phenopackets/OntologyClass.json
     description: ontology describing the modifier/restriction
 oneof:
   - required:
