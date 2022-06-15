@@ -1,21 +1,24 @@
 # General Standards and Recommendations
 
-
+This documentation collects some standards and recommendations with "broad overall agreement[^1]"
+among GA4GH contributors. This is by no means exhaustive;additions and corrections are welcome!
 
 <!--more-->
 
 ## Genome Coordinates
 
+!!! info "GA4GH Recommendation"
+
+    * We recommends the use of __"0-start, half-open"__ (interbase) coordinate system in all systems
+    * This is not a retrospective recommendation for existing standards and products
+    * __"1-start, fully-closed"__ should be used when displaying coordinates through a GUI or report
+
+##### Last content edit: 2019-02-20
+
 #### Contributors
 
-* Andrew Yates ([@andrewyatz](https://github.com/@andrewyatz/)) :fontawesome-brands-github:
-
-### GA4GH Recommendation
-
-* We recommends the use of __"0-start, half-open"__ (interbase) coordinate system in all systems
-* This is not a retrospective recommendation for existing standards and products
-* __"1-start, fully-closed"__ should be used when displaying coordinates through a GUI or report
-
+* Andrew Yates ([@andrewyatz](https://github.com/@andrewyatz/) :fontawesome-brands-github:)
+* GA4GH GKS workstream discussions & beyond
 
 #### Definition
 
@@ -115,6 +118,10 @@ and [#121](https://github.com/ga4gh/ga4gh-schemas/issues/121).
 
 ## Identifiers and CURIEs
 
+!!! info "GA4GH Recommendation"
+
+    GA4GH recommends to use CURIEs as (external) identifiers. 
+    
 #### Contributors
 
 * Chris Mungall ([@cmungall](https://github.com/cmungall/)) :fontawesome-brands-github:
@@ -124,10 +131,9 @@ and [#121](https://github.com/ga4gh/ga4gh-schemas/issues/121).
 * Reece Hart ([@reece](https://github.com/reece/)) :fontawesome-brands-github:
 * cross GA4GH alignment discussions
 
-### GA4GH Recommendation
+Please see also [a previous discussion](https://github.com/ga4gh-metadata/SchemaBlocks/issues/10) on Github, and the links from there.
 
-One of the GA4GH conventions is to use CURIEs as (external) identifiers. Please
-see also [a previous discussion](https://github.com/ga4gh-metadata/SchemaBlocks/issues/10) on Github, and the links from there.
+#### CURIEs
 
 CURIEs ("[Compact URIs](https://www.w3.org/TR/curie/)") are namespace-scoped identifiers which can be expanded to Internationalized Resource Identifiers ([IRI](https://www.w3.org/International/articles/idn-and-iri/)). A CURIE is comprised of two components, a prefix and a reference, separated by a colon symbol `:`. CURIES are case sensitive, although for prefixes this practice is inconsistently being followed.
 
@@ -176,13 +182,16 @@ The underscore in the Cellosaurus id `cellosaurus:CVCL_0312` should usually not 
 
 ## Dates & Times
 
-<a href="https://xkcd.com/1179/" target="_blank"><img src="https://imgs.xkcd.com/comics/iso_8601.png"  align="right" style="margin 20px 0px 30px 20px; width: 200px; clear:none;" /></a>
+!!! info "GA4GH Recommendation"
 
-Date and time formats are specified as [ISO8601](https://www.w3.org/TR/NOTE-datetime)
-strings, both for time points as well as for intervals and durations. An
-optionally required granularity may be specified as part of the respective attributes' documentations or parameter definition (e.g. a time class).
+    Date and time formats are specified as [ISO8601](https://www.w3.org/TR/NOTE-datetime)
+    strings, both for time points as well as for intervals and durations. An
+    optionally required granularity may be specified as part of the respective attributes'
+    documentations or parameter definition (e.g. a time class).
 
 ### Units of time
+
+<a href="https://xkcd.com/1179/" target="_blank"><img src="https://imgs.xkcd.com/comics/iso_8601.png"  align="right" style="margin 20px 0px 30px 20px; width: 200px; clear:none;" /></a>
 
 * *Y* = year
 * *M* = month
@@ -271,3 +280,6 @@ While such anchored time intervals represent an option to capture different time
 * experimental intervention of 30min in YYYY-MM-DDTHH:MM/PTnM
     - 2014-12-31T23H45M/PT30M
     - Here is an example for a short term intervention of a 30 minutes duration, e.g. the celebratory exposure to a diluted sample of EtOH with various organic trace compounds, to celebrate the arrival of the new year.
+
+
+[^1]: YMMW
