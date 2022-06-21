@@ -12,7 +12,7 @@ element in many GA4GH schemas.
 
 #### Link(s)
 
-* [OntologyClass.json](/schemas/json/phenopackets/OntologyClass.json) schema
+* [OntologyClass.json](/schema_files/json/phenopackets/OntologyClass.json) schema
 * [source](https://github.com/phenopackets/phenopacket-schema) :fontawesome-brands-github:
 * [Phenopackets documentation](https://phenopacket-schema.readthedocs.io)
 

@@ -11,7 +11,7 @@ to describe limitations in the ways data items can be re-used.
 
 #### Link(s)
 
-* [DataUseModifier.json](/schemas/json/DUO/DataUseLimitation.json) schema
+* [DataUseModifier.json](/schema_files/json/DUO/DataUseLimitation.json) schema
 * [source](https://github.com/ga4gh-schemablocks/sb-duo) :fontawesome-brands-github:
 * [DUO Ontology](https://github.com/EBISPOT/DUO) :fontawesome-brands-github:
 * _data use modifier_ in [OLS](http://purl.obolibrary.org/obo/DUO_0000017)
