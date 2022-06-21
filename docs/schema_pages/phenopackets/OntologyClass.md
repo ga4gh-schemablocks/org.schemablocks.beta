@@ -1,7 +1,7 @@
 ---
 title: Phenopackets - OntologyClass
 sb_status: core
-logo: phenopackets-logo.png
+logo: logo-phenopackets-200x200.png
 ---
 
 The OntologyClass core element had been defined by the GA4GH Metadata Task Team
