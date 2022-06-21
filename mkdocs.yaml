@@ -10,13 +10,9 @@ edit_uri: edit/main/docs/
 ###############################################################################
 
 nav:
-  - '{S}[B] Home': index.md
-  - About SchemaBlocks: schemablocks-principles.md
-  - Contacts: contacts
-  - Schemas: schema_pages
-  - Standards & Practices: standards-recommendations.md
-  - Beacon Project: 'https://beacon-project.io'
-
+  - '{S}[B] Home': 'https://schemablocks.org'
+  - '{S}[B] Legacy Site': 'https://legacy.schemablocks.org'
+  
 ###############################################################################
 
 markdown_extensions:
