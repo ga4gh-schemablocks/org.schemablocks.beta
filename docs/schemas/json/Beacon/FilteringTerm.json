@@ -1,37 +1,113 @@
 {
-    "$id": "https://beta.schemablocks.org/schemas/json/phenopackets/OntologyClass.json",
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "additionalProperties": false,
-    "description": "This element is used to represent classes (terms) from ontologies, and is used in many places throughout the Phenopacket standard. It is a simple, two element message that represents the identifier and the label of an ontology class.\nThe ID SHALL be a CURIE-style identifier e.g. HP:0100024, MP:0001284, UBERON:0001690, i.e., the primary key for the ontology class. The label should be the corresponding class name. The Phenopacket standard REQUIRES that the id and the label match in the original ontology. We note that occasionally, ontology maintainers change the primary label of a term. (source: Phenopackets v2)",
-    "examples": [
+    "anyOf": [
         {
-            "id": "DUO:0000004",
-            "label": "no restriction"
+            "$ref": "#/definitions/OntologyFilter"
         },
         {
-            "id": "HP:0003621",
-            "label": "Juvenile onset"
+            "$ref": "#/definitions/AlphanumericFilter"
+        },
+        {
+            "$ref": "#/definitions/CustomFilter"
         }
     ],
-    "properties": {
-        "id": {
-            "description": "CURIE of the ontology class",
-            "examples": [
-                "ncit:C8294"
+    "definitions": {
+        "AlphanumericFilter": {
+            "description": "Filter results based on operators and values applied to alphanumeric fields.",
+            "properties": {
+                "id": {
+                    "description": "Field identfier to be queried.",
+                    "example": "age",
+                    "type": "string"
+                },
+                "operator": {
+                    "default": "=",
+                    "description": "Defines how the value relates to the field `id`.",
+                    "enum": [
+                        "=",
+                        "<",
+                        ">",
+                        "!",
+                        ">=",
+                        "<="
+                    ],
+                    "example": ">",
+                    "type": "string"
+                },
+                "scope": {
+                    "description": "The entry type to which the filter applies",
+                    "example": "biosamples",
+                    "type": "string"
+                },
+                "value": {
+                    "description": "Alphanumeric search term to be used within the query which can contain wildcard characters (%) to denote any number of unknown characters. Values can be assocatied with units if applicable.",
+                    "example": "P70Y",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "operator",
+                "value"
             ],
-            "type": "string"
+            "type": "object"
         },
-        "label": {
-            "description": "the text label associated with the ontology class",
-            "examples": [
-                "Pancreatic Adenocarcinoma"
+        "CustomFilter": {
+            "description": "Filter results to include records that contain a custom term defined by this Beacon.",
+            "properties": {
+                "id": {
+                    "description": "Custom filter terms should contain a unique identifier.",
+                    "example": "demographic.ethnicity:asian",
+                    "type": "string"
+                },
+                "scope": {
+                    "description": "The entry type to which the filter applies",
+                    "example": "biosamples",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id"
             ],
-            "type": "string"
+            "type": "object"
+        },
+        "OntologyFilter": {
+            "description": "Filter results to include records that contain a specific ontology term.",
+            "properties": {
+                "id": {
+                    "description": "Term ID to be queried, using CURIE syntax where possible.",
+                    "example": "HP:0002664",
+                    "type": "string"
+                },
+                "includeDescendantTerms": {
+                    "default": true,
+                    "description": "Define if the Beacon should implement the ontology hierarchy, thus query the descendant terms of `id`.",
+                    "type": "boolean"
+                },
+                "scope": {
+                    "description": "The entry type to which the filter applies",
+                    "example": "biosamples",
+                    "type": "string"
+                },
+                "similarity": {
+                    "default": "exact",
+                    "description": "Allow the Beacon to return results which do not match the filter exactly, but do match to a certain degree of similarity. The Beacon defines the semantic similarity model implemented and how to apply the thresholds of 'high', 'medium' and 'low' similarity.",
+                    "enum": [
+                        "exact",
+                        "high",
+                        "medium",
+                        "low"
+                    ],
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "type": "object"
         }
     },
-    "required": [
-        "id"
-    ],
-    "title": "OntologyClass",
+    "description": "Filtering terms are the main means to select subsets of records from a Beacon response. While the name implies the application to a generated response, in practice implementations may apply them at the query stage. Note: In the processing of Beacon v2.0 requests multiple filters are assumed to be chained by the logical AND operator.",
+    "title": "FilteringTerm",
     "type": "object"
 }
